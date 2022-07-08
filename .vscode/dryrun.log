@@ -1,0 +1,49 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory `/Volumes/Work/TV/scener'
+echo "*** Creating 5ef382f87812fa0001eee61f1593017280.zip ***"
+echo "  >> removing old application zip ./dist/5ef382f87812fa0001eee61f1593017280.zip"
+if [ -e "./dist/5ef382f87812fa0001eee61f1593017280.zip" ]; \
+	then \
+		rm  ./dist/5ef382f87812fa0001eee61f1593017280.zip; \
+	fi
+echo "  >> creating destination directory ./dist"
+if [ ! -d ./dist ]; \
+	then \
+		mkdir -p ./dist; \
+	fi
+echo "  >> setting directory permissions for ./dist"
+if [ ! -w ./dist ]; \
+	then \
+		chmod 755 ./dist; \
+	fi
+echo "  >> copying imports"
+if [ "" ]; \
+	then \
+		mkdir source/common; \
+		cp -f --preserve=ownership,timestamps --no-preserve=mode -v  source/common/; \
+	fi \
+
+echo "  >> creating application zip ./dist/5ef382f87812fa0001eee61f1593017280.zip"
+if [ -d ..//5ef382f87812fa0001eee61f1593017280 ]; \
+	then \
+		(zip -0 -r "./dist/5ef382f87812fa0001eee61f1593017280.zip" . -i \*.png -x \*.pkg -x storeassets\* -x keys\* -x \*/.\* -x .git\*); \
+		(zip -9 -r "./dist/5ef382f87812fa0001eee61f1593017280.zip" . -x \*~ -x \*.png -x Makefile -x \*.pkg -x storeassets\* -x keys\* -x \*/.\* -x .git\*); \
+	else \
+		echo "Source for 5ef382f87812fa0001eee61f1593017280 not found at ..//5ef382f87812fa0001eee61f1593017280"; \
+	fi
+if [ "" ]; \
+	then \
+		echo "  >> deleting imports";\
+		rm -r -f source/common; \
+	fi \
+
+echo "*** packaging 5ef382f87812fa0001eee61f1593017280 complete ***"
+if [  ];\
+	then \
+		rm -f /.zip; \
+		mkdir -p ; \
+		cp -f --preserve=ownership,timestamps --no-preserve=mode ./dist/5ef382f87812fa0001eee61f1593017280.zip /.zip; \
+	fi \
+
+make: Leaving directory `/Volumes/Work/TV/scener'
+ 

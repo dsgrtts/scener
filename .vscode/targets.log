@@ -1,0 +1,439 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 3.81
+# Copyright (C) 2006  Free Software Foundation, Inc.
+# This is free software; see the source for copying conditions.
+# There is NO warranty; not even for MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
+
+# This program built for i386-apple-darwin11.3.0
+ 
+
+# Make data base, printed on Thu Jul  7 20:24:16 2022
+
+# Variables
+
+# makefile (from `app.mk', line 53)
+USERPASS = rokudev:$(DEVPASSWORD)
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from `app.mk', line 41)
+ZIPREL = $(DISTREL)
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# makefile
+CURDIR := /Volumes/Work/TV/scener
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/bin/make
+# makefile (from `app.mk', line 1)
+MAKEFILE_LIST :=  Makefile app.mk
+# makefile (from `Makefile', line 2)
+VERSION = 1.0
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+__CFBundleIdentifier = com.microsoft.VSCode
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /var/folders/67/kv5g5nts7zn8kqxhhpfs5r1m0000gn/T/vscode-ipc-92a995d4-71d1-4336-9b62-0da1de26c055.sock
+# environment
+VSCODE_CWD = /
+# environment
+PATH = /usr/bin:/bin:/usr/sbin:/sbin
+# makefile (from `app.mk', line 42)
+PKGREL = $(DISTREL)/packages
+# environment
+LaunchInstanceID = 5A43C86F-7769-4E86-B6F6-D8EB8E77DB3E
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if archives jobserver check-symlink
+# environment
+SSH_AUTH_SOCK = /private/tmp/com.apple.launchd.UsdtMPNQwP/Listeners
+# automatic
+%F = $(notdir $%)
+# makefile (from `app.mk', line 188)
+APPS_PNG_ART = `\find . -name "*.png"`
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /Volumes/Work/TV/scener
+# makefile (from `app.mk', line 46)
+IMPORTCLEANUP = $(foreach f,$(IMPORTS),$(APPSOURCEDIR)/$f.brs)
+# makefile (from `app.mk', line 39)
+SOURCEREL = ../
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = undefined
+# makefile (from `app.mk', line 49)
+NATIVEDEVPKG = $(NATIVEDEVREL)/dev.zip
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /Users/admin
+# default
+MAKEFILEPATH := /Applications/Xcode.app/Contents/Developer/Makefiles
+# environment
+VSCODE_CODE_CACHE_PATH = /Users/admin/Library/Application Support/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LOGNAME = admin
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+XPC_FLAGS = 0x0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+SHLVL = 1
+# default
+MAKE_VERSION := 3.81
+# environment
+USER = admin
+# makefile
+.DEFAULT_GOAL := 5ef382f87812fa0001eee61f1593017280
+# makefile (from `app.mk', line 175)
+APPS_JPG_ART = `\find . -name "*.jpg"`
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := /Applications/Xcode.app/Contents/Developer/usr/bin/make
+# default
+.VARIABLES := 
+# environment
+TMPDIR = /var/folders/67/kv5g5nts7zn8kqxhhpfs5r1m0000gn/T/
+# automatic
+*F = $(notdir $*)
+# environment
+VSCODE_IPC_HOOK = /Users/admin/Library/Application Support/Code/1.68.1-main.sock
+# makefile
+MAKEFLAGS = Rrqp
+# environment
+MFLAGS = -Rrqp
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+XPC_SERVICE_NAME = application.com.microsoft.VSCode.13743073.13743079
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# makefile (from `app.mk', line 44)
+APPSOURCEDIR = source
+# automatic
++F = $(notdir $+)
+# makefile (from `Makefile', line 1)
+APPNAME = 5ef382f87812fa0001eee61f1593017280
+# makefile (from `app.mk', line 50)
+NATIVETICKLER = $(DISTREL)/application/Linux86_dev.OBJ/root/bin/plethora  tickle-plugin-installer
+# environment
+__CF_USER_TEXT_ENCODING = 0x1F5:0x0:0x0
+# environment
+COMMAND_MODE = unix2003
+# makefile (from `app.mk', line 34)
+ROKU_DEV_TARGET = 192.168.1.28
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# makefile (from `app.mk', line 37)
+DISTREL = ./dist
+# environment
+LC_ALL = C
+# makefile (from `app.mk', line 35)
+DEVPASSWORD = zypedev
+# makefile (from `app.mk', line 59)
+ZIP_EXCLUDE = -x \*.pkg -x storeassets\* -x keys\* -x \*/.\* -x .git\*
+# environment
+SECURITYSESSIONID = 186a5
+ 
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# makefile (from `app.mk', line 48)
+NATIVEDEVREL = $(DISTREL)/rootfs/Linux86_dev.OBJ/root/nvram/incoming
+# makefile (from `app.mk', line 45)
+IMPORTFILES = $(foreach f,$(IMPORTS),$(COMMONREL)/$f.brs)
+# default
+.INCLUDE_DIRS = /usr/local/include
+# makefile (from `app.mk', line 38)
+COMMONREL = ../common
+# environment
+MAKELEVEL := 0
+# environment
+LANG = C
+# environment
+VSCODE_PID = 422
+# makefile (from `app.mk', line 62)
+HTTPSTATUS = $(shell curl --silent --write-out "\n%{http_code}\n" $(ROKU_DEV_TARGET))
+# variable set hash-table stats:
+# Load=84/1024=8%, Rehash=0, Collisions=1/116=1%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 16777222, inode 3339049): 18 files, no impossibilities.
+
+# 18 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+5ef382f87812fa0001eee61f1593017280: manifest
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 67):
+	@echo "*** Creating $(APPNAME).zip ***"
+	@echo "  >> removing old application zip $(ZIPREL)/$(APPNAME).zip"
+	@if [ -e "$(ZIPREL)/$(APPNAME).zip" ]; \
+	then \
+	rm  $(ZIPREL)/$(APPNAME).zip; \
+	fi
+	@echo "  >> creating destination directory $(ZIPREL)"
+	@if [ ! -d $(ZIPREL) ]; \
+	then \
+	mkdir -p $(ZIPREL); \
+	fi
+	@echo "  >> setting directory permissions for $(ZIPREL)"
+	@if [ ! -w $(ZIPREL) ]; \
+	then \
+	chmod 755 $(ZIPREL); \
+	fi
+	@echo "  >> copying imports"
+	@if [ "$(IMPORTFILES)" ]; \
+	then \
+	mkdir $(APPSOURCEDIR)/common; \
+	cp -f --preserve=ownership,timestamps --no-preserve=mode -v $(IMPORTFILES) $(APPSOURCEDIR)/common/; \
+	fi \
+	@echo "  >> creating application zip $(ZIPREL)/$(APPNAME).zip"
+	@if [ -d $(SOURCEREL)/$(APPNAME) ]; \
+	then \
+	(zip -0 -r "$(ZIPREL)/$(APPNAME).zip" . -i \*.png $(ZIP_EXCLUDE)); \
+	(zip -9 -r "$(ZIPREL)/$(APPNAME).zip" . -x \*~ -x \*.png -x Makefile $(ZIP_EXCLUDE)); \
+	else \
+	echo "Source for $(APPNAME) not found at $(SOURCEREL)/$(APPNAME)"; \
+	fi
+	@if [ "$(IMPORTCLEANUP)" ]; \
+	then \
+	echo "  >> deleting imports";\
+	rm -r -f $(APPSOURCEDIR)/common; \
+	fi \
+	@echo "*** packaging $(APPNAME) complete ***"
+	@if [ $(DISTDIR) ];\
+	then \
+	rm -f $(DISTDIR)/$(DISTZIP).zip; \
+	mkdir -p $(DISTDIR); \
+	cp -f --preserve=ownership,timestamps --no-preserve=mode $(ZIPREL)/$(APPNAME).zip $(DISTDIR)/$(DISTZIP).zip; \
+	fi \
+	
+
+all:
+#  Phony target (prerequisite of .PHONY).
+#  Command-line target.
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has been updated.
+#  Successfully updated.
+
+.PHONY: all 5ef382f87812fa0001eee61f1593017280
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+art-jpg-opt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 178):
+	p4 edit $(APPS_JPG_ART)
+	for i in $(APPS_JPG_ART); \
+	do \
+	TMPJ=`mktemp` || return 1; \
+	echo "optimizing $$i"; \
+	(jpegtran -copy none -optimize -outfile $$TMPJ $$i && mv -f $$TMPJ $$i &); \
+	done
+	wait
+	p4 revert -a $(APPS_JPG_ART)
+	
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+remove_native:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 171):
+	@echo "Removing $(APPNAME) from native."
+	@rm $(NATIVEDEVPKG)
+	@$(NATIVETICKLER)
+	
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-15 16:06:40
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+remove:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 156):
+	@echo "Removing $(APPNAME) from host $(ROKU_DEV_TARGET)"
+	@if [ "$(HTTPSTATUS)" == " 401" ]; \
+	then \
+	curl --user $(USERPASS) --digest -s -S -F "mysubmit=Delete" -F "archive=" -F "passwd=" http://$(ROKU_DEV_TARGET)/plugin_install | grep "<font color" | sed "s/<font color=\"red\">//" | sed "s[</font>[[" ; \
+	else \
+	curl -s -S -F "mysubmit=Delete" -F "archive=" -F "passwd=" http://$(ROKU_DEV_TARGET)/plugin_install | grep "<font color" | sed "s/<font color=\"red\">//" | sed "s[</font>[[" ; \
+	fi
+	
+
+# Not a target:
+app.mk:
+#  Implicit rule search has been done.
+#  Last modified 2022-03-17 12:47:44
+#  File has been updated.
+#  Successfully updated.
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/0=0%
+
+pkg: install
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 131):
+	@echo "*** Creating Package ***"
+	@echo "  >> creating destination directory $(PKGREL)"
+	@if [ ! -d $(PKGREL) ]; \
+	then \
+	mkdir -p $(PKGREL); \
+	fi
+	@echo "  >> setting directory permissions for $(PKGREL)"
+	@if [ ! -w $(PKGREL) ]; \
+	then \
+	chmod 755 $(PKGREL); \
+	fi
+	@echo "Packaging  $(APPSRC)/$(APPNAME) on host $(ROKU_DEV_TARGET)"
+	@if [ "$(HTTPSTATUS)" == " 401" ]; \
+	then \
+	read -p "Password: " REPLY ; echo $$REPLY | xargs -i curl --user $(USERPASS) --digest -s -S -Fmysubmit=Package -Fapp_name=$(APPNAME)/$(VERSION) -Fpasswd={} -Fpkg_time=`expr \`date +%s\` \* 1000` "http://$(ROKU_DEV_TARGET)/plugin_package" | grep '^<tr><td><font face="Courier"><a' | sed 's/.*href=\"\([^\"]*\)\".*/\1/' | sed 's#pkgs//##' | xargs -i curl --user $(USERPASS) --digest -s -S -o $(PKGREL)/$(APPNAME)_`date +%F-%T`.pkg http://$(ROKU_DEV_TARGET)/pkgs/{} ; \
+	else \
+	read -p "Password: " REPLY ; echo $$REPLY | xargs -i curl -s -S -Fmysubmit=Package -Fapp_name=$(APPNAME)/$(VERSION) -Fpasswd={} -Fpkg_time=`expr \`date +%s\` \* 1000` "http://$(ROKU_DEV_TARGET)/plugin_package" | grep '^<tr><td><font face="Courier"><a' | sed 's/.*href=\"\([^\"]*\)\".*/\1/' | sed 's#pkgs//##' | xargs -i curl -s -S -o $(PKGREL)/$(APPNAME)_`date +%F-%T`.pkg http://$(ROKU_DEV_TARGET)/pkgs/{} ; \
+	fi
+	@echo "*** Package  $(APPNAME) complete ***"
+	
+
+art-opt: art-png-opt art-jpg-opt
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+tr:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 202):
+	p4 edit locale/.../translations.xml
+	../../rdk/rokudev/utilities/linux/bin/maketr
+	rm locale/en_US/translations.xml
+	p4 revert -a locale/.../translations.xml
+	
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+manifest:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+art-png-opt:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 191):
+ 
+	p4 edit $(APPS_PNG_ART)
+	for i in $(APPS_PNG_ART); \
+	do \
+	(optipng -o7 $$i &); \
+	done
+	wait
+	p4 revert -a $(APPS_PNG_ART)
+	
+
+install_native: 5ef382f87812fa0001eee61f1593017280
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 165):
+	@echo "Installing $(APPNAME) to native."
+	@mkdir -p $(NATIVEDEVREL)
+	@cp $(ZIPREL)/$(APPNAME).zip  $(NATIVEDEVPKG)
+	@$(NATIVETICKLER)
+	
+
+install: 5ef382f87812fa0001eee61f1593017280
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  commands to execute (from `app.mk', line 122):
+	@echo "Installing $(APPNAME) to host $(ROKU_DEV_TARGET)"
+	@if [ "$(HTTPSTATUS)" = " 401" ]; \
+	then \
+	curl --user $(USERPASS) --digest -s -S -F "mysubmit=Install" -F "archive=@$(ZIPREL)/$(APPNAME).zip" -F "passwd=" http://$(ROKU_DEV_TARGET)/plugin_install | grep "<font color" | sed "s/<font color=\"red\">//" | sed "s[</font>[[" ; \
+	else \
+	curl -s -S -F "mysubmit=Install" -F "archive=@$(ZIPREL)/$(APPNAME).zip" -F "passwd=" http://$(ROKU_DEV_TARGET)/plugin_install | grep "<font color" | sed "s/<font color=\"red\">//" | sed "s[</font>[[" ; \
+	fi
+	
+
+# files hash-table stats:
+# Load=17/1024=2%, Rehash=0, Collisions=1/38=3%
+# VPATH Search Paths
+
+# No `vpath' search paths.
+
+# No general (`VPATH' variable) search path.
+
+# # of strings in strcache: 2
+# # of strcache buffers: 1
+# strcache size: total = 4096 / max = 4096 / min = 4096 / avg = 4096
+# strcache free: total = 4080 / max = 4080 / min = 4080 / avg = 4080
+
+# Finished Make data base on Thu Jul  7 20:24:16 2022
+
+ 
